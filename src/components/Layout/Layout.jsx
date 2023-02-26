@@ -1,6 +1,6 @@
 import { Container } from './Layout.styled.js';
 
-export const Layout = ({ children }) => {
+export function Layout ({ children }) {
   return (
     <Container>
       <main>{children}</main>
